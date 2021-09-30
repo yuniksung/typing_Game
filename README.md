@@ -7,7 +7,7 @@ https://yuniksung.github.io/typing_Game/
 1. Press 'Start Game' button.
 2. You have 5 seconds to type a word.
 3. Remaining time heats 0, game is over.
-
+ 
 ## Built With
 * HTML
 * CSS
@@ -18,3 +18,4 @@ https://yuniksung.github.io/typing_Game/
 Yun Ik Sung
 yuniksung@gmail.com
 
+ 
