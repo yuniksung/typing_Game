@@ -1,35 +1,20 @@
 # Typing Master
 Typing speed game built with vanilla javascript.
 
-
-* Deployed Aplication: 
-
-## Responsive
-
-## Desktop Screen
-![]()
-
-## Tablet Screen
-![]()
-
-## Mobile Screen
-![]()
+![](/images/screenshot.jpg)
+https://yuniksung.github.io/typing_Game/
+## How to Play
+1. Press 'Start Game' button.
+2. You have 5 seconds to type a word.
+3. Remaining time heats 0, game is over.
 
 ## Built With
-* 58.9% of SCSS
-* 27.6% of JavaScript
-* 13.5% of HTML
-
-## API
-* Edamam for retreiving recipe data
-* Youtube for clip of cooking tutorial
+* HTML
+* CSS
+* Vanilla Javascript
 
 
 ## Contributed By
-* Peters, Ryan 
-* Jimenez, Jason
-* Sullivan, Richard
-* Sung, Yun Ik
-* Tocker, Julia
-* Green, Chandler
+Yun Ik Sung
+yuniksung@gmail.com
 
