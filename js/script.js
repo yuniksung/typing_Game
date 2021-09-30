@@ -98,7 +98,7 @@ function buttonChange(type, text) {
 function runNotification(type) {
     // toastify options
 
-// 사용 변수
+// variables
 const SETTING_TIME = 10;
 let words = [];
 let time;
@@ -124,7 +124,7 @@ function init() {
 function checkStatus() {
     if (!isPlaying && time === 0) {
         isPlaying = false;
-        buttonChange('start', '게임시작');
+        buttonChange('start', 'Start Game');
         clearInterval(checkInterval)
     }
 }
@@ -160,7 +160,7 @@ function run() {
     isPlaying = true;
     timeInterval = setInterval(countDown, 1000)
     checkInterval = setInterval(checkStatus, 50)
-    buttonChange('loading', '게임중')
+    buttonChange('loading', 'Processing')
 }
 
 function countDown() {
@@ -172,7 +172,7 @@ function countDown() {
     console.log('count')
 }
 
-// 단어 가져오기
+// fetch words 
 function getWords() {
     axios.get(url).then((res) => {
 
@@ -180,7 +180,7 @@ function getWords() {
             if (word.length < 7) {
                 words.push(word);
             }
-            buttonChange('start', '게임시작')
+            buttonChange('start', 'Start Game')
         })
     }).catch((err) => {
         console.log(err);
@@ -205,7 +205,7 @@ function runNotification(type) {
         backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)"
     }
     if (type === 'error') {
-        option.text = '우선 게임시작 버튼을 눌러주세요'
+        option.text = 'Press Start Game Button'
         option.position = 'right'
         option.backgroundColor = 'red'
     }
