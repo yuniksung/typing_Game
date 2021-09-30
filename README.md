@@ -1,7 +1,7 @@
 # Typing Master
 Typing speed game built with vanilla javascript.
 
-![](/images/screenshot.jpg)
+![](https://github.com/yuniksung/typing_Game/blob/main/images/ss.jpg?raw=true)
 https://yuniksung.github.io/typing_Game/
 ## How to Play
 1. Press 'Start Game' button.
