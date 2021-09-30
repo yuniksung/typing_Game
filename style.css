@@ -33,10 +33,10 @@ main{
     margin-top: 2rem;
 
 }
-.word-input{
-    padding: 0 0.5rem;
+input{
+    padding: 5px;
     width: 300px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .game-info{
@@ -55,6 +55,7 @@ main{
     width: 200px;
     height: 35px;
     background-color: #3b5999;
+    color: white;
     border: none;
     margin-top: 3rem;
     cursor: pointer;
@@ -64,6 +65,7 @@ main{
 }
 
 .loading{
+    color: black;
     background-color: #ccc;
     cursor: not-allowed;
     display: flex;
